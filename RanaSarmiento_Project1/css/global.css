@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Reveal Styling Example */
+
+/* Page Styling */
+body {
+ background: #eaeaea;
+ color: #fff;
+ font-family: 'Bebas Neue', sans-serif;
+
+}
+
+header, main {
+	width: 570px;
+	margin: 0 auto;
+}
+main {
+	border: 1px #1e1e1e groove;
+}
+
+h1 {
+	font-size: 3em; /* 1em = 16px */
+	color: #309ac7;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+h2 {
+	text-align: right;
+	opacity: .8;
+	padding-left: 10px;
+}
+
+
+/* Overlay Slider */ 
+.hand_xray {
+	position: relative;
+	margin: 10px;
+	/* dimensions of the photo, images must be the same dimensions*/
+	width: 551px;
+	height: 630px;
+
+}
+
+.hand_xray > * {
+	/* asterisks means all, ie. all objects inside of photoshop, equivalent of .photoshop .corrected {} etc. */
+	position: absolute;
+
+}
+
+.xray {
+	overflow: hidden;
+
+	/* Overflow hidden is a mask : width: 50%; could be added for demonstration purposes */
+
+  /*This property will not only be set dynamically with JavaScript, but activity modify based on mouse movement.*/
+  	height:315px;
+}
+
